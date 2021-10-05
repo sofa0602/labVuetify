@@ -70,8 +70,9 @@ export default {
     addNewItem () {
       this.shoppingList.push({
         id: this.shoppingList.length,
-        title: this.newItemTitle
-      })
+        title: this.newItemTitle,
+        bought:false
+      }),
       this.newItemTitle = ' '
       this.shoppingList.forEach((i) => { console.log(i.id) })
     }

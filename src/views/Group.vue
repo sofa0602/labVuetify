@@ -69,7 +69,7 @@
                     color="primary"
                     @click="save"
                   >
-                    Save22
+                    Save223
                   </v-btn>
                 </v-row>
               </v-container>
@@ -154,7 +154,7 @@
                 text
                 @click="close"
               >
-                Cancel
+                Cancel1
               </v-btn>
               <v-btn
                 color="blue darken-1"
